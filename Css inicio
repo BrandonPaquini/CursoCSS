@@ -87,6 +87,20 @@ Propiedad border-radius:
       border-bottom-left-radius: 150px;
       border-bottom-right-radius: 200px;
 
+Existe una forma de crear radios con elipses, la logica se basa en que se le dan dos valores a la propiedad y entonces toma los dos radios creando una elipse con ellos ejemplo
+  border-top-left-radius: 50px 100px; Entonces podemos decir que la elipse tendra un radio de 50 pixeles y otro de 100 pixeles y a su vez se le aplicara a la esquina superior izquierda.
+
+Propiedad Overflow
+  Decimos que el contenido se desborda cuando la caja es mas pequeña que el contenedor
+  Overflow:
+    Es la propiedad que controla que debe hacer una caja cuando su contenido se derborda del contenedor
+    Es un shorthand que engloba overflow-x y overflow-y
+    Tiene 4 posibles valores:
+      visible -> Es el valor por defecto
+      hidden -> El contenido que se desborde no se vera, si lo aplicamos solo en un eje el otro se pondra en automatico en el valor scroll
+      scroll -> Apareceran las barras de scroll en el eje asignado (x, y o ambos)
+      auto -> Apareceran barras de scroll en caso de que haga falta
+
 
 
 
