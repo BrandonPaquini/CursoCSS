@@ -52,3 +52,41 @@ Propiedad Broder:
 la propiedad border se puede colocar en una sola linea abarcando las 3 propiedades:
 
 border: 20px solid red; Donde se abarca el Width el Style y el Color
+Listado de valores para Style:
+  none
+  hidden
+  dotted
+  dashed
+  solid
+  double
+  groove
+  ridge
+  inset
+  outset
+
+Propiedad Box-sizing:
+  Es la propiedad que nos permite controlar el calculo que hace el navegador a la hora de modificar 
+  las propiedades content, padding y border.
+  Los 2 valores que podemos darle son:
+    content-box -> Valor por defecto
+    border-box -> Calculo del tamaño del elemento incluyendo el padding y el border
+
+  Se recomienda utilizar el selector universal para usar box-sizing y asi estandarizar el calculo de las cajas
+*{
+  border-sizing: border-box;
+}
+
+Propiedad border-radius:
+  Es un shorthand que permite redondear los bordes de la caja con los valores que asignemos, adquiere los mismos atributos
+  que las propiedades anteriores
+
+    border-radius: 50px 100px 150px 200px;
+    Así mismo se puede dividir los atributos de la siguiente forma:
+      border-top-left-radius: 50px;
+      border-top-right-radius: 100px;
+      border-bottom-left-radius: 150px;
+      border-bottom-right-radius: 200px;
+
+
+
+
