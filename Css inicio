@@ -13,3 +13,12 @@ Admite hasta 4 valores que van en orden de las agujas del reloj
 3 valores -> margin: top left/right bottom;
 2 valores -> margin: top/bottom left/right
 1 valors -> margin: top/right/bottom/left
+
+//Estas son las notas obtenidas del curso de CSS / 7 Septiembre 2023
+Propiedad Padding:
+  Es la propiedad que nos permite generar un espacio interno entre el borde y la caja.
+  Es un shorthand (propiedad abreviada) que controla los 4 lados posibles a los que dar padding.
+
+padding-top: padding superior
+paddig-right: padding derecho
+
