@@ -108,3 +108,11 @@ Hay un bug en CSS que es el colapsado de margenes, lo que pasa es que cuando tie
   padding-top: 0.1px;
   border-rop: 0.1px solid lightcoral;
 
+
+Propiedad Display
+  La propiedad display nos sirve para cambiar el contexto de los elementos dentro del navegador
+  Admite varios valores
+    none-> Hace que el elemento no se muestre, pero sigue cargandose.
+    block -> Hace que el elemento sea bloque
+    inline -> Hace que el elemento sea de linea
+    inline-block -> Hace que el elemento sea de linea pero admite medidas y margenes verticales
