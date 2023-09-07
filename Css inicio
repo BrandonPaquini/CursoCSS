@@ -106,5 +106,5 @@ Propiedad Overflow
 Hay un bug en CSS que es el colapsado de margenes, lo que pasa es que cuando tienes un atributo hijo este genera un margen fuera de la caja que lo contiene, existen 3 posibles soluciones:
   overflow: hidden;
   padding-top: 0.1px;
-  border-rop: 0.1px;
+  border-rop: 0.1px solid lightcoral;
 
