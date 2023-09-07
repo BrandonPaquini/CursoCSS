@@ -101,6 +101,8 @@ Propiedad Overflow
       scroll -> Apareceran las barras de scroll en el eje asignado (x, y o ambos)
       auto -> Apareceran barras de scroll en caso de que haga falta
 
+  Cuando el texto se desborda esta propiedad nos ayuda a crear un scroll pequeño que evita que esto pase
+
 
 
 
